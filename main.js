@@ -18,11 +18,11 @@ function add(){
 
     car_imgTag=new Image();
     car_imgTag.onload=uploadCar;
-    car_imgTag.src=lykan-hyper-sport.jpg;
+    car_imgTag.src=car_image;
 
     car2_imgTag=new Image();
     car2_imgTag.onload=uploadCar2;
-    car2_imgTag.src=bugatti-la-voiture-noire.jpg;
+    car2_imgTag.src=car2_image;
 }
 function uploadBackground(){
     ctx.drawImage(background_imgTag,0,0,canvas.width,canvas.height);
