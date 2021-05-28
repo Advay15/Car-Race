@@ -5,12 +5,12 @@ car_image="lykan-hyper-sport.jpg";
 car_x=10;
 car_y=10;
 car_width=100;
-car_height=90;
+car_height=50;
 car2_image="bugatti-la-voiture-noire.jpg";
 car2_x=10;
-car2_y=10;
+car2_y=100;
 car2_width=100;
-car2_height=90;
+car2_height=50;
 function add(){
     background_imgTag=new Image();
     background_imgTag.onload=uploadBackground;
